@@ -1,4 +1,4 @@
-# envsafe
+# envsafe: Safe `.env` Inspection and Redaction
 
 **Inspect, validate, and redact `.env` files without printing secrets.**
 
