@@ -1,8 +1,16 @@
 # envsafe: Safe `.env` Inspection and Redaction
 
+[![CI](https://github.com/varungor365/envsafe/actions/workflows/ci.yml/badge.svg)](https://github.com/varungor365/envsafe/actions/workflows/ci.yml)
+
 **Inspect, validate, and redact `.env` files without printing secret values.**
 
 `envsafe` is a local-first command-line tool for the small but expensive mistakes around environment files: duplicate keys, malformed lines, missing values, and accidentally sharing live credentials. It preserves comments and key names when producing a safe `.env.example`.
+
+## Common workflows
+
+- Check a local `.env` before attaching diagnostics to an issue.
+- Generate a reviewable `.env.example` without copying live values.
+- Add a secret-safe pre-commit or CI metadata check.
 
 ## Why this exists
 
